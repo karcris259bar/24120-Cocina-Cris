@@ -1,0 +1,1261 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    /* background p/img de fondo */
+    margin: 7px;
+    background: url(/resources/images/resto-mexico-P.jpg);
+    background-size: cover;
+    display: flex;
+    /* no wrap - sin envoltura */
+    flex-flow: column nowrap;
+    height: 85vh;
+} 
+.d-inline-block {
+    border-radius: 33px;
+    margin: 5px 30px 5px 50px;
+    transition: 500ms;
+    box-shadow: 8px 8px 50px 12px #9b64cf;    
+}
+.d-inline-block:hover {
+    opacity: 0.3;
+}
+.titulo {
+    margin-top: 40px;
+    margin-right: 320px;
+    color: #8d2fe5;
+    font-size: 60px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+.container {
+    font-weight: bold; 
+    font-size: 18px;
+}
+.navbar-principal {
+    width: 96%;
+    height: 70px;
+    align-self: center;
+    border-radius: 10px;
+}
+.colorenlabarra {
+    margin-left: 1px !important;
+    color: #8a2be2 !important;
+}
+.navbar-toggler {
+    color: #8a2be2;
+}
+
+a:hover {
+    color: #fd7e14 !important;
+    text-decoration: underline;
+}
+.contenedor-video {
+    background: #bbbbbb;
+    display: flex;
+    margin: 35px;
+}
+.video {
+    width: 600px;
+    margin: 1em auto;
+    margin-left: 15px;
+    padding: 3em 0;
+}
+.p-atencion {
+    width: 100%;
+    font-size: 35px;
+    font-style: oblique;
+    color: #821ce1;
+    margin-top: 10%;
+    text-align: center;
+}
+.p-atencion:before {
+    content: "★__";
+}
+.p-video {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 25px;
+    justify-content: center;
+}
+.img-copas {
+   display: flex;
+   justify-content: center;
+   margin-top: 61px;
+   margin-right: 15px;
+}
+div.row {
+    background: rgba(186, 214, 240);
+    height: 100%;
+    margin: 20px;
+    border-radius: 10px;
+}    
+.carousel {
+    margin-top: 15px;
+}
+.carousel-control-prev-icon {
+    background-color:aqua;
+}
+.carousel-control-next-icon {
+    background-color:aqua ;
+}
+.aside {
+    background-color: #bbbbbb;
+    padding: 15px;
+    margin-top: 90px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 80px;
+}
+h2 {
+    color: rgb(83, 83, 243);
+    font-weight: bold;
+}
+.p-home {
+    font-size: 18px;
+    font-weight: bold;
+}
+.focaccia{
+    color: white;
+}
+.calorias {
+    color: rgb(97, 10, 35);
+}
+.hamburguesas {
+    color: black;
+}
+.parrafo-home {
+    color: rgb(70, 13, 215);
+    font-size: 30px;
+}
+.mision {
+    font-weight: bold;
+}
+/* F O O T E R */
+footer {
+    margin: 40px;
+}
+p {
+    font-weight: normal;
+}    
+.p-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    font-weight: bold;
+}
+strong {
+    font-style: italic;
+}
+.cris {
+    font-size: 12px !important;
+    font-weight: bold;
+}
+/*  N O S O T R O S */
+.titulo-nosotros {
+    margin-top: 40px;
+    margin-right: 320px;
+    color: #8d2fe5;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+/* Importar fuente de google */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+.sabor {
+    max-height: 60px;
+    max-width: 420px;
+    margin-top: 200px;
+    margin-left: 2%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-radial-gradient(#5316e1, hsl(275, 76%, 60%));
+}
+.sabor span {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Fredoka One";
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+.sabor span::before {
+    content: var(--ʅ);
+    position: absolute;
+    transform: scale(1.1);
+    filter: blur(15px);
+}
+.sabor span::after {
+    content: var(--ʅ);
+    position: absolute;
+    top: 20%;   
+    filter: blur(25px);
+    transform: rotateX(50deg);
+}
+.sabor span:hover {
+    filter: contrast(50%);
+}
+.sabor span:nth-child(1) {
+    color: #00bef8;
+}
+.sabor span:nth-child(2) {
+    color: #ff0697;
+}
+.sabor span:nth-child(3) {
+    color: hsl(125, 100%, 50%);
+}
+.sabor span:nth-child(4) {
+    color: #ffe600;
+}
+main {
+    height: 96%;
+}    
+.container-acerca {
+    display: flex;
+    background: #c0c8eb;
+    margin: 34px;
+    border-radius: 33px;
+    border-style: groove;
+}    
+.principal-img {
+    margin: 2%;
+    width: 95%;
+}  
+.cocina {
+    float: left;
+    margin: 0px 20px 40px 0px;
+}
+.parrafo-acercaDe {
+    margin: 5%;
+    text-align: justify;
+    font-size: 18px;
+}
+/* C O N T A C T O */
+.header-contacto {
+    /* background p/img de fondo */
+    background: url(/resources/images/resto-mexico-P.jpg);
+    background-size: cover;
+    display: flex;
+    /* no wrap - sin envoltura */
+    flex-flow: column nowrap;
+    height: 85vh;
+    margin-bottom: 25px;
+}
+.parrafo-contacto {
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 40px;
+    color: #ffffff;
+}
+.col-md-4 {
+    background-color: #05395f;
+    color: white;
+    border-radius: 8px;
+   }
+.col-md-8 {
+    background-color: rgb(167, 167, 239);
+}
+.card-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.card-text-1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 18px;
+}
+.card-text-2 {
+    font-size: 18px;
+    margin-left: 18px;
+}
+.text-body-secondary {
+    margin-left: 18px;
+    color: white;
+}
+/* S U C U R S A L E S */
+.main {
+    border-radius: 33px;
+    margin: 30px;
+    padding: 3em 0;
+    background: linear-gradient(#e1b5b5, #eadcdc);
+}
+.titulo-principal-sucursal {
+    text-align: center;
+}
+.p-sucursal {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.p-sucursal p {
+    margin-left: 115px;
+    font-weight: bold;
+}
+.dirPrincipal {
+    margin-left: 400px;
+    text-decoration: none;
+}
+h5 {
+    margin-top: 40px;
+}
+.direccion {
+    margin-top: 40px;
+    margin-left: 435px;
+    font-weight: bold;
+}
+.items {
+    line-height: 2;
+    list-style-type: none;
+}
+.items:before {
+    content: "★  ";
+}
+.aSucursal {
+    text-decoration: none;
+}
+.mapa-contenido {
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}   
+/* I N I C I A R    S E S I O N */
+.iniciarBienvenido {
+    margin: 20px ;
+}
+.iniciarBienvenido span {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Fredoka One";
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+.iniciarBienvenido span::before {
+    content: var(--ʅ);
+    position: reltaive;
+    transform: scale(1.1);
+    filter: blur(15px);
+}
+.iniciarBienvenido span::after {
+    content: var(--ʅ);
+    position: absolute;
+    top: 20%;
+    filter: blur(25px);
+    transform: rotateX(50deg);
+}
+.iniciarBienvenido span:hover {
+    filter: contrast(50%);
+}
+.iniciarBienvenido span:nth-child(1) {
+    color: #00bef8;
+}
+.iniciarBienvenido span:nth-child(2) {
+    color: #ff0697;
+}
+.iniciarBienvenido span:nth-child(3) {
+    color: hsl(125, 100%, 50%);
+}
+.iniciarBienvenido span:nth-child(4) {
+    color: #ffe600;
+}
+.iniciarBienvenido span:nth-child(5) {
+    color: #ff00ee;
+}
+.bodyLogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(/resources/images/plato-blanco-vacio.jpg);
+    margin: 50px;
+    border-radius: 33px;
+}
+.form-body {
+    width : 400px;
+    min-width: 280px;
+    height: 80%;
+    margin: 20px;
+    border-radius: 10px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: solid 6px #8676dc;
+    background: #05395f;
+}    
+.form-body img {
+    width: 150px;
+    display: block;
+    /* Con auto se centra la imagen */
+    margin: 20px auto;
+}
+.form-body input {
+    display: block;
+    margin: auto;
+    height: 30px;
+    width: 80%;
+    padding-left: 10px;
+    color: rgb(33, 9, 151) !important;
+    font-weight: bold;
+    border: 5px solid #fff;
+    border-radius: 2px;
+    background-color:#c0e7f2 !important;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+.form-body input[type="password"] {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+::placeholder {
+    font-size: 1rem;
+    color: rgba(157, 15, 15, 0.596);
+}
+.form-body input:hover {
+    transition: .5s;
+    border: 3px solid #1381ca;
+    color: #480ded;
+    font-weight: bold;
+}
+.form-body button {
+    display: block;
+    margin-left: 30%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 40%;
+    height: 40px;
+    border: 3px solid #2980b9;
+    background: #43c3e7;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+    box-shadow: 0px 1px 0px hsl(180,100%,40%),
+    0px 2px 0px hsl(180,100%,38%),
+    0px 3px 0px hsl(180,100%,37%),
+    0px 4px 0px hsl(180,100%,36%),
+    0px 5px 0px hsl(180,100%,35%),
+    0px 6px 0px hsl(180,100%,34%),
+    0px 7px 0px hsl(180,100%,33%),
+    0px 8px 0px hsl(180,100%,32%),
+    0px 9px 0px hsl(180,100%,31%),
+    0px 10px 0px hsl(180,100%,20%),
+    0px 11px 10px #000;
+}
+.form-body button:hover {
+    color: #821ce1;
+    border: 3px solid #1381ca;
+    background: #fd7e14;
+}
+.recuperar a {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+.form-body .registroPagina {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.registroPagina a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* C L I E N T E  S */
+
+.titulo-cliente {
+    margin-right: 320px;
+    color: #8d2fe5;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+.clienteSabor {
+    max-width: 400px;
+    margin-top: 200px;
+    margin-left: 2%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: -webkit-radial-gradient(#5316e1, hsl(275, 76%, 60%));
+}
+.clienteSabor span {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Fredoka One";
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+.clienteSabor span::before {
+    content: var(--ʅ);
+    position: absolute;
+    transform: scale(1.1);
+    filter: blur(15px);
+}
+.clienteSabor span::after {
+    content: var(--ʅ);
+    position: absolute;
+    top: 20%;   
+    filter: blur(25px);
+    transform: rotateX(50deg);
+}
+.clienteSabor span:hover {
+    filter: contrast(50%);
+}
+.clienteSabor span:nth-child(1) {
+    color: #00bef8;
+}
+.clienteSabor span:nth-child(2) {
+    color: #ff0697;
+}
+.clienteSabor span:nth-child(3) {
+    color: hsl(125, 100%, 50%);
+}
+.clienteSabor span:nth-child(4) {
+    color: #ffe600;
+}
+.clienteSabor span:nth-child(5) {
+    color: #ff00ee;
+}
+.container-cliente {
+    background-color: #816bff;
+    color: white;
+    margin: 60px;
+    height: 45vh;
+    padding-top: 50px;
+}
+.h1-cliente {
+    height: 80px;
+}
+.max-768 {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 18px;
+    text-align: center;
+}
+.col-12 h2 {
+    text-align: center;
+}
+.exito {
+    background-color: #85cae8;
+    align-items: center;
+    width: 70%;
+    padding: 70px;
+    margin-left: 70px;
+    margin-bottom: 70px;
+    border-radius: 10px;
+    text-align: left;
+    font-weight: bold;
+    box-shadow: 5px 3px 0px hsl(33,42%,40%);
+}  
+.ul {
+    margin-left: 70px;
+}
+
+li {
+    margin-left: 75px;
+}
+.cris{
+    font-size: 18px;
+    font-weight: bold;
+}
+.cris-1 {
+    font-size: 10px;
+    font-weight: bold;
+}
+.titulo-pedido {
+    font-size: 25px;
+}
+/* P E D I D O S */
+/* header */
+.titulo-pedido {
+    margin-top: 20px;
+    margin-right: 280px;
+    color: #8d2fe5;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+/* main */
+.container-card-pedido {
+    display: flex;
+    background: url(/resources/images/plato-blanco-vacio.jpg) !important;
+}
+.card-pedido {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h5 .titlePedido{
+    font-size: 23px;
+    padding: 10px;
+}
+.imgPedido {
+    align-items: center !important;
+}
+/* R E G I S T R A R S E */
+.frm-2 {
+    display: block;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 33px;
+    background: url(/resources/images/plato-blanco-vacio.jpg);
+}
+.titulo-registro {
+    width: 100%;
+    background: #8676dc;
+    padding: 20px;
+    border-radius: 10Px;
+    font-size: 30px;
+    color: white;
+} 
+form {
+    margin: 80px 0;
+    margin-left: 20px;
+    margin-right: 10px;
+    background: rgba(180, 225, 227, 0.733);
+}
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 10px 0 10px;
+    margin-left: 20px;
+}
+.input-agenda {
+    display: block;
+    margin: 0 0 20px;
+    margin-left: 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.enviar {
+    display: block;
+    margin-left: 30%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 20%;
+    height: 40px;
+    border: 3px solid #2980b9;
+    background: #43c3e7;
+    border-radius: 25px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease;
+    box-shadow: 0px 1px 0px hsl(180,100%,40%),
+    0px 2px 0px hsl(180,100%,38%),
+    0px 3px 0px hsl(180,100%,37%),
+    0px 4px 0px hsl(180,100%,36%),
+    0px 5px 0px hsl(180,100%,35%),
+    0px 6px 0px hsl(180,100%,34%),
+    0px 7px 0px hsl(180,100%,33%),
+    0px 8px 0px hsl(180,100%,32%),
+    0px 9px 0px hsl(180,100%,31%),
+    0px 10px 0px hsl(180,100%,20%),
+    0px 11px 10px #000;
+}
+.enviar:hover {
+    color: #821ce1;
+    border: 3px solid #1381ca;
+    background: #fd7e14;
+}
+.row {
+    background-color:white;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.col-md-4 {
+    background-color: #05395f;
+    color: white;
+   }
+
+.card-title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.card-text-1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 18px;
+}
+.card-text-2 {
+    font-size: 18px;
+    margin-left: 18px;
+}
+.text-body-secondary {
+    margin-left: 18px;
+    color: white;
+}
+/* R E C U P E R A R */
+.titulo-recuperar {
+    margin-right: 150px;
+    font-size: 50px;
+    color: #8d2fe5;
+}
+.bodyRecuperar {
+    margin: 20px;
+    background-color: #b8d1e1;
+    border: solid 4px #cfdbde;
+    border-radius: 33px;
+}
+.containerRecuperar {
+    background: white;
+    width: 500px;
+    padding: 20px; 
+    /* Para Centrar con auto */
+    margin: auto;
+}  
+h2 {
+    font-size: 16px;
+    text-align: center;
+    /* 20 arriba/abajo y 10 a los costados */
+    padding: 20px 10px;
+}
+.correo {
+    width: 100%;
+    background: none;
+    border: none;
+    text-align: center;
+    border-bottom: solid rgb(160, 156, 156) 3px;
+    padding: 20px;
+    outline: none;
+    margin-bottom: 30px;
+}
+.correo:focus {
+    border-bottom: solid rgb(200, 19, 79) 3px;
+}
+.form_button {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.salir {
+    background: rgb(103, 79, 220);
+    text-decoration: none;
+    padding: 5px 20px;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.salir:hover {
+    background: red;
+    font-weight: bold;
+    text-decoration: none;
+} 
+.enviarRecuperar {
+    background: green;
+    padding: 8px 20px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.enviarRecuperar:hover {
+    background: red;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 300px) {
+    .header {
+       margin: 4px;
+       height: 100vh;
+    } 
+    .titulo {
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+    .nav-item {
+        line-height: 12px !important;
+    }
+    .p-atencion {
+        font-size: 25px;
+        margin-top: 2%;
+    }
+    .p-video {
+        margin-left: 40px;
+        margin-right: 40px;
+        font-size: 25px;
+        justify-content: center;
+    }
+    .img-copas {
+       display: flex;
+       justify-content: center;
+       margin-top: 61px;
+       margin-right: 15px;
+       margin-bottom: 30px;
+    }
+    div .row .row-carousel {
+        display: flex;
+        width: 100%;
+        background: rgba(186, 214, 240);
+        height: 100%;
+        border-radius: 10px;
+        padding-inline: 3px;
+    }   
+    ul .mision {
+        margin-right: 2px;
+    }
+    ul li {
+        margin: 5px;
+    }
+    div col-md-6 col-sm-9 {
+        display: flex;
+        width: 100%;
+    }
+    .carousel {
+        width: 100%;
+        position: relative;
+        margin-left: 0% !important;
+        margin-top: 1px !important;
+        line-height: 15px;
+    }
+    .focaccia{
+        color: white;
+    }
+    .calorias {
+        width: 100% !important;
+        font-size: 18px;
+        font-weight: bold;
+        color: rgb(97, 10, 35);
+    }
+    .hamburguesas {
+        color: black;
+    }
+    .parrafo-home {
+        position: relative;
+        color: rgb(70, 13, 215);
+        font-size: 15px !important;
+        font-weight: bold;
+        margin-bottom: 1px !important;
+        margin-left: 1px !important;
+    }
+
+    /* N O S O T R O S */
+    .titulo-nosotros {
+        font-size: 25px;
+        margin: 2px;
+        text-align: center;
+    }
+    /* Importar fuente de google */
+    @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+    .sabor {
+        width: 98%;
+        height: 40px;
+        margin-top: 120px;
+        margin-right: 2px;
+    }
+    .sabor span {
+        font-size: 14px;
+    }
+    .sabor span::before {
+        content: var(--ʅ);
+        position: absolute;
+        transform: scale(1.1);
+        filter: blur(15px);
+    }
+    .mainNosotros {
+        width: 98%;
+    }
+    .container-acerca {
+        display: inline-block;
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .cocina {
+        width: 99%;
+        margin-left: 2px;
+    }
+    .parrafo-acercaDe p {
+        margin-left: 2px;
+        margin-right: 2px;
+        font-size: 13px;
+    } 
+    /* C O N T A C T O */
+    .parrafo-contacto {
+        margin-top: 120px;
+        margin-left: 20px;
+    }
+    .parrafo-contacto-2 {
+        margin-top: 40px;
+    }
+    /* S U C U R S A L */
+    .main {
+        width: 99%;
+        margin: .5%;
+    }
+    .titulo-principal-sucursal {
+        color: white;
+    }
+    .p-sucursal {
+        margin-left: 2px !important;
+        margin-top: 5px;
+    }
+    .p-sucursal p {
+        margin-left: 10px;
+    }
+    .dirSucursalPrincipal {
+        margin-left: 10px;
+        margin-right: 10px;
+        border: solid rgb(64, 13, 173);
+    }
+    .dirSucursalPrincipal h5 {
+        margin: 2px 2px;
+    }
+    .dirPrincipal {
+        margin: 2px;
+        font-size: 14px;
+        margin-left: 5px;
+    }
+    .mapa-contenido{
+        width: auto;
+    }
+    .direccion {
+        margin-left: 0px;
+    }
+    ul .items::before {
+        color: #8a2be2;
+    }
+    /*  I N I C I A R   S E S I O N */
+    .iniciarBienvenido {
+        width: 98%;
+        margin-top: 5px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        display: inline-block;
+        align-items: center;
+    }
+    .iniciarBienvenido span {
+        font-size: 15px;
+    }
+    .bodyLogin {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        margin: 1px;
+        margin-bottom: 25px;
+    }   
+    .form-body {
+        display: inline-block;
+        width: 289px;
+        margin: 1px;
+    }    
+    .form-body input {
+        width: 93%;
+        padding-left: 0px;
+        font-weight: 400;
+        border: 3px solid white;
+        font-size: 15px;
+    }
+    .form-body input[type="password"] {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .form-body button {
+        margin-left: 25%;
+        width: 50%;
+        font-size: 15px;
+    }
+    .recuperar a {
+        margin-left: 20px;
+    }
+    .form-body .registroPagina {
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    /* P  E D I D O S */
+    /* header */
+    .titulo-pedido {
+    margin-top: 20px;
+    margin-right: 2px;
+    color: #8d2fe5;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    }
+    /* main Pedido */
+    .main-pedido {
+        width: 98%;
+        margin-top: 3px;
+        margin-left: 1%;
+        background: url(/resources/images/plato-blanco-vacio.jpg);
+        border: #480ded;
+        border-radius: 13px;
+    }
+    .container-card-pedido {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+    }
+    /* C L I E N T E S */
+    .clienteSabor {
+        margin-left: 2%;
+        border-radius: 5px;
+    }
+    .clienteSabor span {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .container-cliente {
+        border-radius: 5px;
+        margin: 10px;
+        height: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .h1-cliente {
+        font-size: 25px;
+    }
+    .max-768 {
+        margin: 2%;
+        font-size: 18px;
+        text-align: justify;
+    }
+    .col-12 h2 {
+        text-align: center;
+    }
+    .exito {
+        width: 100%;
+        margin-left: 1px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }  
+     /* REGISTRARSE */
+    .titulo-registro {
+        text-align: center;
+    } 
+    .frm-2 {
+        width: 98%;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    form label, form legend {
+        font-size: 18px;
+    }
+    .input-agenda  {
+        width: 90%;
+    } 
+    .imput-agenda {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+    .enviar {
+        width: 60% !important;
+        font-size: 15px;
+    }
+    /* R E C U P E R A R */
+    .titulo-recuperar {
+        font-size: 30px;
+        text-align: center;
+        margin: 2px;
+    }
+    .bodyRecuperar {
+        display: inline-block;
+        margin: 5px;
+    }
+    .containerRecuperar {
+        width: 98%;
+        padding: 5px; 
+    }  
+    h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+    /* F O O T E R */
+    footer {
+        margin: 4px;
+    }
+    .cris {
+        font-size: 10px !important;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 576px) {
+    /* H  O  M  E */
+    .titulo {
+        font-size: 35px;
+        margin: 30px;
+        text-align: center;
+    }
+    .contenedor-video {
+        display: inline-block;
+        background: #bde2c8;
+        margin: 1%;
+        width: 96%;
+        padding: 1%;
+        height: 100%;
+    }
+    .video { 
+        width: 100%; 
+        align-items: center;
+    }
+    .p-atencion {
+        width: 99%;
+        font-size: 25px;
+        text-align:justify;
+        font-weight: bold;
+        word-spacing: 8px;
+    }
+    .p-video {
+        font-size: 18px;
+        margin-left: 6px;
+        width: 90%;
+    }
+    div.img-copas {
+        margin-top: 0%;
+        padding-top: 0%;
+    }
+    .img-copas {
+        width: 98%;
+        margin-left: 4px;
+    } 
+    div.row {
+        display: flex;
+    }    
+    .col-md-3  {
+        width: 94%;
+    }
+    .carousel {
+        margin-left: 45px;
+    }
+    .calorias p {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .parrafo-home {
+        color: rgb(70, 13, 215);
+        font-size: 20px;
+    }
+    
+    /* F O O T E R
+    footer {
+        margin: 40px;
+    }
+    p {
+        font-weight: normal;
+    }    
+    .p-1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-small;
+        font-weight: bold;
+    }
+    strong {
+        font-style: italic;
+    }
+    .cris {
+        font-size: 12px !important;
+        font-weight: bold;
+    } */
+    /*  N O S O T R O S */
+    .titulo-nosotros {
+        margin-right: 20px;
+    }
+    .container-acerca {
+        display: inline-block;
+        margin: 14px;
+    }    
+    /* C O N T A C T O */
+    .header-contacto {
+        padding: 20px;
+    }
+    .col-md-8 {
+        padding: 20px;
+    }
+    /* S U C U R S A L E S */
+    .main {
+        padding: 3px;
+    }
+    .p-sucursal {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .p-sucursal p {
+        margin-left: 15px;
+        font-weight: bold;
+    }
+    .dirPrincipal {
+        margin-left: 15px;
+    }
+    h5 {
+        margin-top: 20px;
+    }
+    .direccion {
+        margin-top: 10px;
+        margin-left: 1px;
+        font-weight: bold;
+    }
+    /* I N I C I A R    S E S I O N */
+    .iniciarBienvenido {
+        margin: 2px ;
+    }
+    .iniciarBienvenido span {
+        font-size: 18px;
+    }
+    /* C L I E N T E  S */
+    .max-768 {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 18px;
+        text-align: center;
+    }
+        /* P E D I D O S */
+    /* header */
+    .titulo-pedido {
+        margin-right: 60px;
+        text-align: center;
+    }
+    .col-sm-4 {
+        display: inline-block;
+        width: 90%;
+        align-items: center;
+    }
+    .imgPedido {
+        align-items: center;
+    }
+    /* R E G I S T R A R S E */
+    .frm-2 {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .titulo-registro {
+        text-align: center;
+    } 
+    .input-agenda {
+        width: 80%;
+    }
+    .enviar {
+        margin-left: 35%;
+        width: 30%;
+    }    
+     /* R E C U P E R A R */
+    .titulo-recuperar {
+        margin-right: 50px;
+        font-size: 30px;
+        margin-left: 80px;
+    }
+}  
