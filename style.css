@@ -237,7 +237,7 @@ main {
 /* C O N T A C T O */
 .header-contacto {
     /* background p/img de fondo */
-    background: url(/resources/images/resto-mexico-P.jpg);
+    background: url(.//resources/images/resto-mexico-P.jpg);
     background-size: cover;
     display: flex;
     /* no wrap - sin envoltura */
@@ -370,7 +370,7 @@ h5 {
     justify-content: center;
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(/resources/images/plato-blanco-vacio.jpg);
+    background-image: url(.//resources/images/plato-blanco-vacio.jpg);
     margin: 50px;
     border-radius: 33px;
 }
@@ -591,7 +591,7 @@ li {
 /* main */
 .container-card-pedido {
     display: flex;
-    background: url(/resources/images/plato-blanco-vacio.jpg) !important;
+    background: url(.//resources/images/plato-blanco-vacio.jpg) !important;
 }
 .card-pedido {
     display: flex;
@@ -614,7 +614,7 @@ h5 .titlePedido{
     margin-left: 15%;
     margin-right: 15%;
     border-radius: 33px;
-    background: url(/resources/images/plato-blanco-vacio.jpg);
+    background: url(.//resources/images/plato-blanco-vacio.jpg);
 }
 .titulo-registro {
     width: 100%;
@@ -1002,7 +1002,7 @@ h2 {
         width: 98%;
         margin-top: 3px;
         margin-left: 1%;
-        background: url(/resources/images/plato-blanco-vacio.jpg);
+        background: url(.//resources/images/plato-blanco-vacio.jpg);
         border: #480ded;
         border-radius: 13px;
     }
