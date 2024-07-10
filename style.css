@@ -6,7 +6,7 @@
 .header {
     /* background p/img de fondo */
     margin: 7px;
-    background: url(/resources/images/resto-mexico-P.jpg);
+    background: url(.//resources/images/resto-mexico-P.jpg);
     background-size: cover;
     display: flex;
     /* no wrap - sin envoltura */
