@@ -32,7 +32,7 @@ formInicio.addEventListener("submit", async (event) => {
     .then((res) => res.json())
     .then((res) => console.log("Inicio de sesión exitoso", res))
     .catch((e) => console.log("Credenciales inválidas", e))
-    .finally(() => window.location.href = window.location.origin)
+    .finally(() => window.location.href = "/24120-Cocina-Cris")
 });
 
 formRegistro.addEventListener("submit", async (event) => {
